@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>John James | Product Design Leader</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+background:#faf9f6;
+color:#111;
+
+font-family:Inter,sans-serif;
+
+line-height:1.7;
+
+}
+
+nav{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+right:0;
+
+padding:32px 7%;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+background:rgba(250,249,246,.92);
+
+backdrop-filter:blur(18px);
+
+border-bottom:1px solid #ececec;
+
+z-index:999;
+
+}
+
+.logo{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:2rem;
+
+font-weight:600;
+
+letter-spacing:.03em;
+
+}
+
+nav ul{
+
+display:flex;
+
+gap:48px;
+
+list-style:none;
+
+}
+
+nav a{
+
+text-decoration:none;
+
+color:#555;
+
+font-size:.95rem;
+
+transition:.3s;
+
+}
+
+nav a:hover{
+
+color:#000;
+
+}
+
+.hero{
+
+min-height:100vh;
+
+display:flex;
+
+align-items:center;
+
+padding:0 7%;
+
+}
+
+.hero-content{
+
+max-width:900px;
+
+}
+
+.small{
+
+font-size:.85rem;
+
+text-transform:uppercase;
+
+letter-spacing:.25em;
+
+color:#2962ff;
+
+margin-bottom:30px;
+
+}
+
+h1{
+
+font-family:"Cormorant Garamond",serif;
+
+font-weight:500;
+
+font-size:clamp(4rem,9vw,7rem);
+
+line-height:.95;
+
+letter-spacing:-.04em;
+
+margin-bottom:35px;
+
+}
+
+.subtitle{
+
+font-size:1.35rem;
+
+color:#666;
+
+max-width:700px;
+
+margin-bottom:50px;
+
+}
+
+.button{
+
+display:inline-block;
+
+padding:18px 34px;
+
+border:1px solid #111;
+
+text-decoration:none;
+
+color:#111;
+
+transition:.35s;
+
+}
+
+.button:hover{
+
+background:#111;
+
+color:white;
+
+}
+
+.stats{
+
+padding:100px 7%;
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:30px;
+
+}
+
+.stat{
+
+border-top:1px solid #ddd;
+
+padding-top:25px;
+
+}
+
+.number{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:4rem;
+
+}
+
+.label{
+
+color:#666;
+
+}
+
+.projects{
+
+padding:100px 7%;
+
+}
+
+.section-title{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:4rem;
+
+margin-bottom:60px;
+
+font-weight:500;
+
+}
+
+.project{
+
+padding:70px 0;
+
+border-top:1px solid #e5e5e5;
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:70px;
+
+align-items:center;
+
+}
+
+.mockup{
+
+height:340px;
+
+background:white;
+
+border:1px solid #e8e8e8;
+
+}
+
+.project h2{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:3rem;
+
+font-weight:500;
+
+margin-bottom:20px;
+
+}
+
+.project p{
+
+color:#666;
+
+font-size:1.1rem;
+
+margin-bottom:30px;
+
+}
+
+.link{
+
+text-decoration:none;
+
+color:#2962ff;
+
+font-weight:600;
+
+}
+
+footer{
+
+padding:120px 7%;
+
+border-top:1px solid #e5e5e5;
+
+margin-top:100px;
+
+}
+
+footer h2{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:3rem;
+
+font-weight:500;
+
+margin-bottom:20px;
+
+}
+
+footer p{
+
+color:#666;
+
+max-width:500px;
+
+}
+
+@media(max-width:900px){
+
+.project{
+
+grid-template-columns:1fr;
+
+}
+
+.stats{
+
+grid-template-columns:1fr;
+
+}
+
+nav ul{
+
+display:none;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+John James
+</div>
+
+<ul>
+
+<li><a href="#">Work</a></li>
+
+<li><a href="#">About</a></li>
+
+<li><a href="#">Experience</a></li>
+
+<li><a href="#">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<div class="small">
+PRODUCT DESIGN LEADER
+</div>
+
+<h1>
+
+Designing products
+used by 120M+
+people.
+
+</h1>
+
+<p class="subtitle">
+
+I lead product strategy, AI experiences, personalization, and enterprise design initiatives across The Wall Street Journal, MarketWatch, and Barron's.
+
+</p>
+
+<a class="button" href="#">
+
+View Selected Work
+
+</a>
+
+</div>
+
+</section>
+
+<section class="stats">
+
+<div class="stat">
+
+<div class="number">
+120M+
+</div>
+
+<div class="label">
+Monthly Users
+</div>
+
+</div>
+
+<div class="stat">
+
+<div class="number">
+7
+</div>
+
+<div class="label">
+Enterprise Products
+</div>
+
+</div>
+
+<div class="stat">
+
+<div class="number">
+8+
+</div>
+
+<div class="label">
+Years Product Design
+</div>
+
+</div>
+
+</section>
+
+<section class="projects">
+
+<div class="section-title">
+
+Selected Work
+
+</div>
+
+<div class="project">
+
+<div class="mockup"></div>
+
+<div>
+
+<h2>
+WSJ Homepage Redesign
+</h2>
+
+<p>
+
+Modernizing the front door for millions of readers through stronger hierarchy, personalization, and editorial clarity.
+
+</p>
+
+<a href="#" class="link">
+
+View Case Study →
+
+</a>
+
+</div>
+
+</div>
+
+<div class="project">
+
+<div class="mockup"></div>
+
+<div>
+
+<h2>
+WSJ AI Article Summaries
+</h2>
+
+<p>
+
+Designing AI-powered experiences that help readers understand complex stories in seconds while maintaining editorial trust.
+
+</p>
+
+<a href="#" class="link">
+
+View Case Study →
+
+</a>
+
+</div>
+
+</div>
+
+<div class="project">
+
+<div class="mockup"></div>
+
+<div>
+
+<h2>
+MarketWatch Homepage
+</h2>
+
+<p>
+
+Creating a modern investing experience balancing breaking news, market data, and personalized insights.
+
+</p>
+
+<a href="#" class="link">
+
+View Case Study →
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>
+
+Let's build better products.
+
+</h2>
+
+<p>
+
+Product strategy, AI experiences, research, and enterprise design leadership for products that reach millions.
+
+</p>
+
+</footer>
+
+</body>
+
+</html>
