@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>John James | Product Design Leader</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+background:#faf9f6;
+color:#111;
+
+font-family:Inter,sans-serif;
+
+line-height:1.7;
+
+}
+
+nav{
+
+position:sticky;
+
+top:0;
+
+left:0;
+
+right:0;
+
+padding:32px 7%;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+background:rgba(250,249,246,.92);
+
+backdrop-filter:blur(18px);
+
+border-bottom:1px solid #ececec;
+
+z-index:999;
+
+}
+
+.logo{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:2rem;
+
+font-weight:600;
+
+letter-spacing:.03em;
+
+}
+
+nav ul{
+
+display:flex;
+
+gap:48px;
+
+list-style:none;
+
+}
+
+nav a{
+
+text-decoration:none;
+
+color:#555;
+
+font-size:.95rem;
+
+transition:.3s;
+
+}
+
+nav a:hover{
+
+color:#000;
+
+}
+
+.hero{
+
+min-height:100vh;
+
+display:flex;
+
+align-items:center;
+
+padding:50px 7%;
+
+}
+
+.hero-content{
+
+max-width:900px;
+
+}
+
+.small{
+
+font-size:.85rem;
+
+text-transform:uppercase;
+
+letter-spacing:.25em;
+
+color:#2962ff;
+
+margin-bottom:30px;
+
+}
+
+h1{
+
+font-family:"Cormorant Garamond",serif;
+
+font-weight:500;
+
+font-size: 2.5rem;
+
+line-height:1.1;
+
+letter-spacing:-.04em;
+
+margin-bottom:35px;
+
+}
+
+      h2{
+
+font-family:"Cormorant Garamond",serif;
+
+font-weight:500;
+
+font-size:2rem;
+
+line-height:1.1;
+
+letter-spacing:-.04em;
+
+margin-bottom:35px;
+
+}
+
+            h3{
+
+font-family:"Cormorant Garamond",serif;
+
+font-weight:500;
+
+font-size: 1.5rem;
+
+line-height:1.1;
+
+letter-spacing:-.04em;
+
+margin-bottom:35px;
+
+}
+
+.subtitle{
+
+font-size:1.35rem;
+
+color:#666;
+
+max-width:700px;
+
+margin-bottom:50px;
+
+}
+
+.button{
+
+display:inline-block;
+
+padding:18px 34px;
+
+border:1px solid #111;
+
+text-decoration:none;
+
+color:#111;
+
+transition:.35s;
+
+}
+
+.button:hover{
+
+background:#111;
+
+color:white;
+
+}
+
+      img { margin-top: 20px}
+
+.stats{
+
+padding:100px 7%;
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:30px;
+
+}
+
+.stat{
+
+border-top:1px solid #ddd;
+
+padding-top:25px;
+
+}
+
+.number{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:4rem;
+
+}
+
+.label{
+
+color:#666;
+
+}
+
+.projects{
+
+padding:100px 7%;
+
+}
+
+.section-title{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:4rem;
+
+margin-bottom:60px;
+
+font-weight:500;
+
+}
+
+.project{
+
+padding:70px 0;
+
+border-top:1px solid #e5e5e5;
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:70px;
+
+align-items:center;
+
+}
+
+.mockup{
+
+height:340px;
+
+background:white;
+
+border:1px solid #e8e8e8;
+
+}
+
+.project h2{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:3rem;
+
+font-weight:500;
+
+margin-bottom:20px;
+
+}
+
+.project p{
+
+color:#666;
+
+font-size:1.1rem;
+
+margin-bottom:30px;
+
+}
+.case-study {
+      display: flex;
+      flex-direction: column;
+      padding: 50px;
+   max-width: 720px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+.link{
+
+text-decoration:none;
+
+color:#2962ff;
+
+font-weight:600;
+
+}
+
+footer{
+
+padding:120px 7%;
+
+border-top:1px solid #e5e5e5;
+
+margin-top:100px;
+
+}
+
+footer h2{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:3rem;
+
+font-weight:500;
+
+margin-bottom:20px;
+
+}
+
+footer p{
+
+color:#666;
+
+max-width:500px;
+
+}
+
+@media(max-width:900px){
+
+.project{
+
+grid-template-columns:1fr;
+
+}
+
+.stats{
+
+grid-template-columns:1fr;
+
+}
+
+nav ul{
+
+display:none;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div href="/index.html"class="logo">
+John James
+</div>
+
+<ul>
+
+<li><a href="/index.html#projects">Work</a></li>
+
+<li><a href="/index.html#about">About</a></li>
+
+<li><a href="/index.html#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+  <section class="case-study"> 
+           
+                    <h1>WSJ+ Dashboard 2.0 </h1>
+                   
+<p>
+  The WSJ+ Dashboard 2.0 project was initiated as part of an effort to enhance the user experience by creating a more dynamic and personalized content hub that aggregates news from multiple Dow Jones brands, including WSJ, Barron's, MarketWatch, and Investor's Business Daily. <br> <br> The goal was to provide a seamless, customized experience where users can access top news stories, personalized content, market insights, and other related features across these platforms in one unified location.
+</p>
+<br><br><img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737085154/Screen_Shot_2025-01-16_at_10.38.53_PM_lvmrfb.png" width="100%" alt=""><br>
+<br><hr /><br>
+<h3>Hypothesis</h3>
+<p>
+  The initial hypothesis was that by centralizing content and offering tailored, engaging news experiences, users would be more likely to engage with the platform and retain higher levels of interaction. Key assumptions included:
+</p>
+<ul>
+  <li>
+    <strong>Increased Engagement:</strong> Providing a curated and personalized dashboard would encourage users to spend more time on the platform, as they could access content tailored to their interests and preferences.
+  </li><br>
+  <img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737085771/Your_paragraph_text_4_k3v1dg.png" width="100%" alt="">
+<br><br><Br>
+  <li>
+    <strong>Improved Content Discoverability:</strong> Aggregating diverse content from across Dow Jones brands in an organized and intuitive layout would make it easier for users to find and explore relevant articles, stories, podcasts, and market insights.
+  </li>
+  <li>
+    <strong>Customization Drives Value:</strong> Empowering users to personalize their content preferences would lead to higher satisfaction and better content relevancy, ultimately improving retention and user loyalty.
+  </li>
+</ul>
+<br><br>
+<img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737084920/Your_paragraph_text_3_cy9hy6.png" width="100%">
+<br><br>
+<p>
+  This hypothesis was supported by the idea that news consumption today is increasingly fragmented, and users seek convenience, personalization, and quick access to content from multiple trusted sources. By centralizing this experience, WSJ Dashboard 2.0 aimed to streamline that process and drive both customer satisfaction and business performance.
+</p>
+<br><hr />
+<br>
+<h3>Problem</h3>
+<p>
+  The WSJ Dashboard 2.0 project faced several key challenges:
+</p>
+<ul>
+  <li>
+    <strong>Content Overload vs. Simplicity:</strong> Aggregating diverse content from multiple Dow Jones brands (WSJ, Barron's, MarketWatch, Investor's Business Daily) without overwhelming users. The goal was to balance informative richness with a minimalist, user-friendly layout.
+  </li>
+  <li>
+    <strong>Brand Identity:</strong> Ensuring the design reflected each brand’s unique style while maintaining a cohesive visual experience across the platform.
+  </li>
+  <li>
+    <strong>Customization:</strong> Creating an intuitive customization system that allowed users to personalize their experience without cluttering the interface.
+  </li>
+  <li>
+    <strong>Responsive Design:</strong> Ensuring the dashboard was optimized for desktop, tablet, and mobile, offering a seamless experience on all devices.
+  </li>
+</ul>
+<br>
+<img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737137684/6_xqhigs.png" width="100%">
+<br><br><hr />
+<br>
+<h3>Approach</h3>
+<p>
+  The approach I took involved several key steps to ensure the project was aligned with both business goals and user needs. As the Product Design Lead, I was responsible for:
+</p>
+<ul>
+  <li>
+    <strong>Research and Insights:</strong> Conducted in-depth research on user needs, preferences, and pain points, leveraging both existing insights and new data collected throughout the project. Incorporated customer feedback to ensure the design was user-centered and intuitive.
+  </li>
+  <br>
+  <img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737110714/Screen_Shot_2025-01-17_at_5.44.45_AM_agqwmf.png" width="100%">
+<br>
+<br>
+  <li>
+    <strong>Collaborating with the Agency:</strong> Provided design direction to the agency, ensuring their recommendations would align with the overall vision, brand identity, and technical requirements of the company.
+  </li>
+<br> 
+  <img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737119531/Your_paragraph_text_5_y7cngh.png" width="100%">
+  <br><br><li>
+    <strong>Turning Recommendations into Designs:</strong> Translated the agency’s recommendations into actionable designs, ensuring they fit within our design strategy, tech stack, and platform capabilities.
+  </li>
+  <li>
+    <strong>Workshops and Stakeholder Alignment:</strong> Organized and led workshops with cross-functional teams, including product, editorial, and business leaders, to align on the project vision and goals. Facilitated stakeholder alignment meetings to ensure everyone was on the same page and that priorities were clear, keeping the project on track.
+  </li>
+</ul>
+
+<br>
+<img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737111434/Screen_Shot_2025-01-17_at_5.56.26_AM_fe1pau.png" width="100%">
+<br>
+<hr />
+<br>
+<h3>Output</h3>
+<p class="caption">Top News - 16u Design - This is our most viewed section, so we wanted to create a clear heirarchy, prominent imagery and intentional spacing.</p>
+<img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737111890/Frame_2147250585_1_wzkmcm.png" width="100%">
+<br><br>
+<br>
+<p class="caption">Some of the mobile views -- we designed for all breakpoints to ensure a smooth experience for users on all devices</p>
+<img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737115968/Frame_2147250588_qv32uv.png" width="70%">
+<br><br>
+<br>
+<p class="caption">Consolidation of Companies, Industries and Topics into an 'Interests' section. Most people weren't scrolling past the Companies section, so we want to pack more value into a smaller space for easy discovery.</p>
+<img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737113882/Frame_2147250586_1_h9am9x.png" width="100%">
+<br><br><p class="caption">Video of WSJ+ Dashboard (Top News + Interests)</p><video controls width="100%">
+    <source  src="https://res.cloudinary.com/usamobileappsllc/video/upload/v1737114746/Screen_Recording_2025-01-17_at_6.50.13_AM_ojzxil.mov">
+</video><br> <br><br>
+<p class="caption">Endless Reader article layout to increase on-page time</p>
+
+<img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737114474/Frame_2147250587_evhthy.png" width="100%">
+<br><br><br>
+<p class="caption">Video of Endless Reader experience. Left rail would be sticky the entire time so users can easily jump between articles, but I was limited by the Figma prototype tool.</p>
+
+<video controls width="100%">
+    <source src="https://res.cloudinary.com/usamobileappsllc/video/upload/v1737114842/Screen_Recording_2025-01-17_at_6.52.47_AM_vatwvd.mov" >
+</video>
+<br>
+<hr />
+<br>
+
+<h3>Outcome</h3>
+<p>
+  The impact of this project is still being evaluated as it is currently in development. However, the expected outcomes for both customers and the business are significant:
+</p>
+<h4>Customer Impact:</h4>
+<ul>
+  <li>
+    Increased value perception of the bundled subscription, as users will find more personalized and relevant content across Dow Jones brands.
+  </li>
+  <li>
+    Improved user experience with streamlined, customized content, leading to better engagement and satisfaction.
+  </li>
+  <li>
+    Empowered users to track topics they care about, resulting in more frequent interaction with the platform.
+  </li>
+</ul>
+<h4>Business Impact:</h4>
+<ul>
+  <li>
+    Increased subscription retention due to enhanced content relevance and user satisfaction.
+  </li>
+  <li>
+    Strengthened cross-brand engagement, fostering deeper connections across the Dow Jones portfolio (WSJ, Barron's, MarketWatch, etc.).
+  </li>
+  <li>
+    Better targeting for future content and advertising, improving overall monetization strategies.
+  </li>
+</ul>
+<h4>Potential Metrics to Achieve:</h4>
+<ul>
+  <li>13% increase in click-through rates (CTR) on personalized content and storylines.</li>
+  <li>12% improvement in subscription retention rate, driven by the enhanced value of the bundled offering.</li>
+  <li>18% increase in cross-brand engagement, measured by users interacting with multiple Dow Jones properties.</li>
+  <li>24% improvement in content engagement, tracked by time spent on the platform and article interactions.</li>
+</ul>
+<p>
+  These metrics will help measure the effectiveness of the redesigned dashboard in achieving its goals.
+</p>
+
+                </section>
+           
+
+   
+</body>
+</html>
