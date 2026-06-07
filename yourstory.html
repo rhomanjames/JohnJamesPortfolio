@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>John James | Product Design Leader</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+background:#faf9f6;
+color:#111;
+
+font-family:Inter,sans-serif;
+
+line-height:1.7;
+
+}
+
+nav{
+
+position:sticky;
+
+top:0;
+
+left:0;
+
+right:0;
+
+padding:32px 7%;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+background:rgba(250,249,246,.92);
+
+backdrop-filter:blur(18px);
+
+border-bottom:1px solid #ececec;
+
+z-index:999;
+
+}
+
+.logo{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:2rem;
+
+font-weight:600;
+
+letter-spacing:.03em;
+
+}
+
+nav ul{
+
+display:flex;
+
+gap:48px;
+
+list-style:none;
+
+}
+
+nav a{
+
+text-decoration:none;
+
+color:#555;
+
+font-size:.95rem;
+
+transition:.3s;
+
+}
+
+nav a:hover{
+
+color:#000;
+
+}
+
+.hero{
+
+min-height:100vh;
+
+display:flex;
+
+align-items:center;
+
+padding:50px 7%;
+
+}
+
+.hero-content{
+
+max-width:900px;
+
+}
+
+.small{
+
+font-size:.85rem;
+
+text-transform:uppercase;
+
+letter-spacing:.25em;
+
+color:#2962ff;
+
+margin-bottom:30px;
+
+}
+
+h1{
+
+font-family:"Cormorant Garamond",serif;
+
+font-weight:500;
+
+font-size: 2.5rem;
+
+line-height:1.1;
+
+letter-spacing:-.04em;
+
+margin-bottom:35px;
+
+}
+
+      h2{
+
+font-family:"Cormorant Garamond",serif;
+
+font-weight:500;
+
+font-size:2rem;
+
+line-height:1.1;
+
+letter-spacing:-.04em;
+
+margin-bottom:35px;
+
+}
+
+            h3{
+
+font-family:"Cormorant Garamond",serif;
+
+font-weight:500;
+
+font-size: 1.5rem;
+
+line-height:1.1;
+
+letter-spacing:-.04em;
+
+margin-bottom:35px;
+
+}
+
+.subtitle{
+
+font-size:1.35rem;
+
+color:#666;
+
+max-width:700px;
+
+margin-bottom:50px;
+
+}
+
+.button{
+
+display:inline-block;
+
+padding:18px 34px;
+
+border:1px solid #111;
+
+text-decoration:none;
+
+color:#111;
+
+transition:.35s;
+
+}
+
+.button:hover{
+
+background:#111;
+
+color:white;
+
+}
+
+      img { margin-top: 20px}
+
+.stats{
+
+padding:100px 7%;
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:30px;
+
+}
+
+.stat{
+
+border-top:1px solid #ddd;
+
+padding-top:25px;
+
+}
+
+.number{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:4rem;
+
+}
+
+.label{
+
+color:#666;
+
+}
+
+.projects{
+
+padding:100px 7%;
+
+}
+
+.section-title{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:4rem;
+
+margin-bottom:60px;
+
+font-weight:500;
+
+}
+
+.project{
+
+padding:70px 0;
+
+border-top:1px solid #e5e5e5;
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:70px;
+
+align-items:center;
+
+}
+
+.mockup{
+
+height:340px;
+
+background:white;
+
+border:1px solid #e8e8e8;
+
+}
+
+.project h2{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:3rem;
+
+font-weight:500;
+
+margin-bottom:20px;
+
+}
+
+.project p{
+
+color:#666;
+
+font-size:1.1rem;
+
+margin-bottom:30px;
+
+}
+.case-study {
+      display: flex;
+      flex-direction: column;
+      padding: 50px;
+   max-width: 720px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+.link{
+
+text-decoration:none;
+
+color:#2962ff;
+
+font-weight:600;
+
+}
+
+footer{
+
+padding:120px 7%;
+
+border-top:1px solid #e5e5e5;
+
+margin-top:100px;
+
+}
+
+footer h2{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:3rem;
+
+font-weight:500;
+
+margin-bottom:20px;
+
+}
+
+footer p{
+
+color:#666;
+
+max-width:500px;
+
+}
+
+@media(max-width:900px){
+
+.project{
+
+grid-template-columns:1fr;
+
+}
+
+.stats{
+
+grid-template-columns:1fr;
+
+}
+
+nav ul{
+
+display:none;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div href="/index.html"class="logo">
+John James
+</div>
+
+<ul>
+
+<li><a href="/index.html#projects">Work</a></li>
+
+<li><a href="/index.html#about">About</a></li>
+
+<li><a href="/index.html#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+
+   <section class="case-study"> 
+    
+                    <h1>Wall Street Journal "Your Story" </h1>
+<p>The project was initiated to address the challenge of increasing subscriber engagement and retention for the Wall Street Journal (WSJ). Marketing identified an opportunity to showcase the value of a WSJ subscription through a personalized, data-driven "End of Year Subscriber Experience," inspired by successful initiatives like “Spotify Wrapped.”</p>
+<Br><img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737080604/Frame_1321320635_pvqkqn.png" width="100%" alt="">
+<br> <br> <hr /> <br> 
+<h3>Hypothesis</h3>
+<p>The team hypothesized that:</p>
+<ul>
+  <li><strong>Personalization Increases Engagement:</strong> A personalized summary of subscriber activity would create a more compelling and emotionally resonant connection with the WSJ brand.</li>
+  <li><strong>Demonstrating Value Boosts Retention:</strong> Highlighting individual achievements and the value subscribers gained over the past year would reinforce their decision to maintain their subscription.</li>
+  <li><strong>Shareability Drives Brand Awareness:</strong> By designing the experience to be shareable, WSJ could organically expand its reach and generate interest among potential subscribers.</li>
+  <li><strong>Validation Through Data:</strong> An MVP approach would allow the team to test whether this type of experience measurably impacts retention and engagement, providing a foundation for future investment.</li>
+</ul>
+<br>
+<img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737077904/Your_paragraph_text_2_rqanmi.png" width="100%" />
+<br><br><br> <br><br> 
+<h4>Opportunity Highlights:</h4>
+<ul>
+  <li><strong>Competitive differentiation:</strong> Only one out of six competitors currently offers a similar experience, presenting WSJ with a chance to lead in personalized subscriber engagement within the media industry.</li>
+  <li><strong>Success stories:</strong> Insights from The Washington Post's “Newsprint” initiative showed that personalized year-end summaries can significantly drive engagement, reduce churn, and encourage product adoption.</li>
+</ul>
+<br>
+<img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737080870/Screen_Shot_2025-01-16_at_9.27.31_PM_s0326f.png" alt="" width="100%">
+<br>
+<br><hr /> <br>
+<h3>Problems</h3> 
+<h4>Limited Design Resources and Time Constraints:</h4>
+<p><strong>Challenge:</strong> The project scope requires designing multiple personalized, visually engaging cards and creating a seamless web experience. However, the design resources allocated to the project are limited, as mentioned in the meeting notes, with Brand Design and PCX resources not being fully engaged until early Q2.</p>
+<p><strong>Impact:</strong> With only 8 weeks available to design, develop, and launch the MVP, the team faces a tight timeline, risking insufficient time for refinement, testing, or resolving unforeseen technical challenges.</p>
+<br>
+<img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737078817/teamsize_zksutt.png" width="100%" >
+<br>
+<br>
+<br><br>
+<h4>Data and Infrastructure Challenges</h4>
+<p><strong>Challenge:</strong> The data for creating personalized summaries is dependent on complex systems, such as Athena and AIQ, with ongoing questions about data transfer processes and integration. Issues like incomplete or unavailable data for some users (e.g., skipped cards) add further complexity.</p>
+<p><strong>Impact:</strong> These uncertainties could delay development and hinder the ability to deliver a polished MVP experience. Additionally, eligibility criteria (e.g., users who have read a minimum number of articles) further narrow the target audience, potentially reducing engagement metrics.</p>
+<br>
+<img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737079135/Screen_Shot_2025-01-16_at_8.58.48_PM_iuyfyd.png" width="100%">
+<br><br> <br> <br>
+<h4>Ambiguity Around Scope and Experience Delivery</h4>
+<p><strong>Challenge:</strong> The project scope includes various potential delivery methods, such as onsite placements, unique webpages, and email promotions. Meeting notes highlight unresolved decisions about infrastructure (e.g., onboarding CMS vs. standalone webpage) and questions about marketing's involvement in promotion.</p>
+<p><strong>Impact:</strong> This ambiguity risks misalignment across teams and delays in execution, especially when creating a user journey that is intuitive and impactful. Additionally, focusing only on desktop and web view limits reach and shareability, particularly in a mobile-first digital landscape.</p>
+<br><hr /> <br> 
+<h3>Approach</h3>
+<h4>Prioritize Critical MVP Features:</h4>
+<ul>
+  <li><strong>Focus on High-Impact Cards:</strong> Rather than attempting to design and develop all potential “cards,” prioritize those that clearly communicate value and engagement. Highlight metrics like unique engagement achievements, comparative insights, and high-value subscription benefits.</li>
+  <li><strong>Incorporate Animations for Engagement:</strong> Use subtle animations or transitions to make the cards more dynamic and visually engaging, such as revealing data points with smooth fades or playful interactions. These animations can elevate the user experience without significantly increasing complexity.</li>
+  <li><strong>Simplify Design:</strong> Leverage existing WSJ brand guidelines and reusable components to streamline design work, ensuring the experience aligns with the brand while saving time for creative execution.</li>
+</ul>
+<br>
+<p class="caption"> We worked with Marketing to determine the order of the cards and the content on them. We wanted to keep it simple, so often our main question was, 'Do we <b>need </b>this or do we just want it?'</p>
+
+<img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737079569/Screen_Shot_2025-01-16_at_9.05.50_PM_iez9el.png" width="100%" alt="">
+<br><br> <br><br>
+<h4>Streamline Product Design Process:</h4>
+<ul>
+  <li><strong>Focus on Accessibility and Usability:</strong> Ensure the design is optimized for both desktop and mobile web, with clear navigation and an intuitive layout. This will help users engage with the experience seamlessly, regardless of their platform.</li>
+  <li><strong>Prototype Early:</strong> Use rapid prototyping tools to test card designs and interactivity early in the process. This allows for iterative feedback and ensures alignment between design, development, and stakeholder expectations.</li>
+  <li><strong>Design for Edge Cases:</strong> Account for scenarios where certain data points might be missing. Create fallback designs or default content to maintain the user journey without disruptions.</li>
+  <li><strong>Personalization as a Priority:</strong> Tailor the design to reflect the subscriber’s unique engagement history, emphasizing a personal and celebratory tone. This fosters a stronger emotional connection and boosts shareability.</li>
+</ul>
+<br>
+<p class="caption"> I created wireframes with details specifications on every element. Is it clickable? Is it required? Does it move? The devs need to know, so we made sure to document it thoroughly.</p>
+
+<img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737079732/Screen_Shot_2025-01-16_at_9.08.40_PM_s4jreo.png" width="100%">
+<br> <br> <br>
+<p class="caption"> Here's an early iteration of the design -- it was a good foundation, but it lacked the brand feel. It wasn't evoking an emotional response, which is what we desired to do.</p>
+
+<img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737079912/Screen_Shot_2025-01-16_at_9.11.24_PM_wndgdh.png" width="100%">
+<Br> <br><br> <br><br>
+<h4>Clarify Scope and Align Teams:</h4>
+<ul>
+  <li><strong>Confirm Delivery and Promotion Strategies:</strong> Finalize decisions on hosting (standalone webpage or WSJ onboarding CMS) and promotional methods (onsite messages or email campaigns). These decisions will guide the design approach and reduce ambiguity for the entire team.</li>
+  <li><strong>Coordinate Across Teams:</strong> Align product design closely with marketing and development teams to ensure the user experience and promotional strategies are cohesive. Regular touchpoints and a shared project timeline will keep the effort on track.</li>
+  <li><strong>Focus on MVP-Ready Features:</strong> Clearly communicate which features are essential for the MVP. For example, prioritize personalization and shareability over secondary elements to ensure a high-quality experience within the tight timeframe.</li>
+</ul>
+<br> 
+<p class="caption"> We tested all of the color palletes we had available. Spotify always has great colors and styles, but we needed to stay true to the WSJ brand. We wanted to accomplish the same task that Spotify Wrapped does, while keeping our </p>
+
+<img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737080169/Screen_Shot_2025-01-16_at_9.15.46_PM_tn8web.png" alt="" width="100%">
+<br><br>
+<p>By prioritizing impactful features, embedding animation to enhance user engagement, streamlining the product design process, and fostering team alignment, the project can deliver a polished and effective MVP within the limited 8-week schedule.</p>
+<br><hr /> <br> 
+<h3>Outputs</h3>
+<h4>Functional + Motion Specs</h4>
+<p class="caption">This allowed us to give clear directions to developers. This included design system references and specs related to motion design</p>
+<img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737082516/Screen_Shot_2025-01-16_at_9.52.51_PM_kb4033.png" width="100%" alt="">
+<img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737082507/Screen_Shot_2025-01-16_at_9.54.47_PM_fg05jl.png" width="100%" alt="">
+<br><br>  <br><br> <br>
+<h4>Wireframes + High Fidelity Designs</h4>
+<p class="caption">This is a look at our final designs. We went through many color palletes, but we eventually settled here to make it fun, but keep it professional and on-brand.</p><br>
+<img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737082583/Screen_Shot_2025-01-16_at_9.55.54_PM_vklpzf.png" width="100%" alt="">
+<img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737082590/Screen_Shot_2025-01-16_at_9.56.11_PM_z8kxhz.png" width="100%" alt="">
+<img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737138380/Screen_Shot_2025-01-17_at_1.26.11_PM_iih4es.png" width="100%" alt="">
+<Br> <br>  <br><br> <br>
+    <h4>Full-Motion Prototype (See video)</h4><br>
+    <p class="caption">I created a full-motion prototype in Figma for 4u (mobile) and 16u (desktop). I worked step-in-step with developers during QA to ensure everything matched down to the pixel.</p>
+
+   <video width="100%" controls>
+
+    <source  src="https://res.cloudinary.com/usamobileappsllc/video/upload/v1737083604/YourStoryFinal_hu4xrw.mp4">
+
+   </video>
+   <br><br><br><br>
+<h4>Custom Motion Assets for Developers (Lottie JSON)</h4>
+<br>
+<img src="https://res.cloudinary.com/usamobileappsllc/image/upload/v1737084117/Screen_Shot_2025-01-16_at_10.21.37_PM_amatcq.png" width="100%">
+<br> <br> <hr /> <br>
+<h3>Potential Outcomes</h3>
+
+<h4>Engagement:</h4>
+<ul>
+  <li><strong>Specific Goal:</strong> Increase the average number of articles read per subscriber.</li>
+  <li><strong>Potential Impact:</strong> Subscribers who engage with the end-of-year experience may show up to a 12% increase in average articles read compared to previous periods.</li>
+  <li><strong>Supporting Indicators:</strong>
+    <ul>
+      <li><strong>Engagement Rates:</strong> Up to 43% of eligible subscribers could access their end-of-year summary, viewing an average of 4.5 cards per session.</li>
+      <li><strong>Behavioral Shift:</strong> As many as 47% may read at least 3 additional articles after engaging with the experience.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4>Retention:</h4>
+<ul>
+  <li><strong>Specific Goal:</strong> Improve subscription renewal rates.</li>
+  <li><strong>Potential Impact:</strong> Engaged users could demonstrate up to an 11% higher renewal intent, based on historical survey data comparisons.</li>
+  <li><strong>Supporting Indicators:</strong>
+    <ul>
+      <li><strong>Feedback:</strong> As many as 72% of users may report that the experience “reinforced the value of their subscription.”</li>
+      <li><strong>Call-to-Actions:</strong> Up to 22% of users may complete a secondary action like signing up for a newsletter or downloading the app—supporting long-term engagement.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4>Additional Potential Metrics:</h4>
+<ul>
+  <li><strong>Shareability:</strong> Up to 12% of users might share their personalized summary on social media, leading to a possible 4% increase in referral traffic to the WSJ subscription page.</li>
+  <li><strong>Time-on-Experience:</strong> Average session durations could reach 1 minute and 43 seconds—exceeding WSJ engagement benchmarks by 17%.</li>
+</ul>
+
+<p>If achieved, these outcomes would mark a strong success for the MVP experience, aligning with broader strategic goals around engagement, retention, and organic growth through shareability and action-oriented design.</p>
+
+   </section>
+</body>
+</html>
