@@ -1,4 +1,420 @@
-```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>John James | Product Design Leader</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+background:#faf9f6;
+color:#111;
+
+font-family:Inter,sans-serif;
+
+line-height:1.7;
+
+}
+
+nav{
+
+position:sticky;
+
+top:0;
+
+left:0;
+
+right:0;
+
+padding:32px 7%;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+background:rgba(250,249,246,.92);
+
+backdrop-filter:blur(18px);
+
+border-bottom:1px solid #ececec;
+
+z-index:999;
+
+}
+
+.logo{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:2rem;
+
+font-weight:600;
+
+letter-spacing:.03em;
+
+}
+
+nav ul{
+
+display:flex;
+
+gap:48px;
+
+list-style:none;
+
+}
+
+nav a{
+
+text-decoration:none;
+
+color:#555;
+
+font-size:.95rem;
+
+transition:.3s;
+
+}
+
+nav a:hover{
+
+color:#000;
+
+}
+
+.hero{
+
+min-height:100vh;
+
+display:flex;
+
+align-items:center;
+
+padding:50px 7%;
+
+}
+
+.hero-content{
+
+max-width:900px;
+
+}
+
+.small{
+
+font-size:.85rem;
+
+text-transform:uppercase;
+
+letter-spacing:.25em;
+
+color:#2962ff;
+
+margin-bottom:30px;
+
+}
+
+h1{
+
+font-family:"Cormorant Garamond",serif;
+
+font-weight:500;
+
+font-size: 2.5rem;
+
+line-height:1.1;
+
+letter-spacing:-.04em;
+
+margin-bottom:35px;
+
+}
+
+      h2{
+
+font-family:"Cormorant Garamond",serif;
+
+font-weight:500;
+
+font-size:2rem;
+
+line-height:1.1;
+
+letter-spacing:-.04em;
+
+margin-bottom:35px;
+
+}
+
+            h3{
+
+font-family:"Cormorant Garamond",serif;
+
+font-weight:500;
+
+font-size: 1.5rem;
+
+line-height:1.1;
+
+letter-spacing:-.04em;
+
+margin-bottom:35px;
+
+}
+
+.subtitle{
+
+font-size:1.35rem;
+
+color:#666;
+
+max-width:700px;
+
+margin-bottom:50px;
+
+}
+
+.button{
+
+display:inline-block;
+
+padding:18px 34px;
+
+border:1px solid #111;
+
+text-decoration:none;
+
+color:#111;
+
+transition:.35s;
+
+}
+
+.button:hover{
+
+background:#111;
+
+color:white;
+
+}
+
+      img { margin-top: 20px}
+
+.stats{
+
+padding:100px 7%;
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:30px;
+
+}
+
+.stat{
+
+border-top:1px solid #ddd;
+
+padding-top:25px;
+
+}
+
+.number{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:4rem;
+
+}
+
+.label{
+
+color:#666;
+
+}
+
+.projects{
+
+padding:100px 7%;
+
+}
+
+.section-title{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:4rem;
+
+margin-bottom:60px;
+
+font-weight:500;
+
+}
+
+.project{
+
+padding:70px 0;
+
+border-top:1px solid #e5e5e5;
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:70px;
+
+align-items:center;
+
+}
+
+.mockup{
+
+height:340px;
+
+background:white;
+
+border:1px solid #e8e8e8;
+
+}
+
+.project h2{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:3rem;
+
+font-weight:500;
+
+margin-bottom:20px;
+
+}
+
+.project p{
+
+color:#666;
+
+font-size:1.1rem;
+
+margin-bottom:30px;
+
+}
+.case-study {
+      display: flex;
+      flex-direction: column;
+      padding: 50px;
+   max-width: 720px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+.link{
+
+text-decoration:none;
+
+color:#2962ff;
+
+font-weight:600;
+
+}
+
+footer{
+
+padding:120px 7%;
+
+border-top:1px solid #e5e5e5;
+
+margin-top:100px;
+
+}
+
+footer h2{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:3rem;
+
+font-weight:500;
+
+margin-bottom:20px;
+
+}
+
+footer p{
+
+color:#666;
+
+max-width:500px;
+
+}
+
+@media(max-width:900px){
+
+.project{
+
+grid-template-columns:1fr;
+
+}
+
+.stats{
+
+grid-template-columns:1fr;
+
+}
+
+nav ul{
+
+display:none;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div href="index.html"class="logo">
+John James
+</div>
+
+<ul>
+
+<li><a href="index.html#projects">Work</a></li>
+
+<li><a href="index.html#about">About</a></li>
+
+<li><a href="index.html#contact">Contact</a></li>
+
+</ul>
+
+</nav>
 <section class="case-study">
 
   <header class="hero">
@@ -379,4 +795,5 @@ Continuous Learning Loop
   </section>
 
 </section>
-```
+</body>
+</html>
