@@ -1,0 +1,382 @@
+```html
+<section class="case-study">
+
+  <header class="hero">
+    <h1>Building a Cross-Platform Personalization Ecosystem</h1>
+
+    <p class="subtitle">
+      Product Design Lead | Wall Street Journal, Barron's, MarketWatch & Investor's Business Daily
+    </p>
+
+    <p>
+      Product Strategy • Personalization • AI Experiences • Information Architecture •
+      User Research • Executive Collaboration
+    </p>
+
+    <!-- HERO IMAGE: Full-width collage of Preference Center, WSJ+, MyWSJ, Shortlist and Notifications -->
+  </header>
+
+  <section>
+
+    <h2>Overview</h2>
+
+    <!-- IMAGE: Final product montage -->
+
+    <p>
+      As Product Design Lead, I led the vision and design strategy for personalization
+      across multiple Dow Jones products serving millions of readers worldwide.
+    </p>
+
+    <p>
+      Rather than treating personalization as a standalone feature, I developed a
+      connected ecosystem that combines explicit user preferences with behavioral
+      signals to create relevant, engaging experiences across web and mobile platforms.
+    </p>
+
+    <p>
+      This multi-year initiative included:
+    </p>
+
+    <ul>
+      <li>Preference Center</li>
+      <li>WSJ+</li>
+      <li>MyWSJ</li>
+      <li>Shortlist</li>
+      <li>Notifications Inbox</li>
+    </ul>
+
+    <p>
+      Together, these experiences established the foundation for a scalable
+      personalization platform that continuously learns and adapts to each reader.
+    </p>
+
+  </section>
+
+  <section>
+
+    <h2>The Challenge</h2>
+
+    <!-- IMAGE: Research wall or problem statement -->
+
+    <p>
+      Every reader consumes financial news differently.
+    </p>
+
+    <p>
+      Some follow specific companies. Others follow industries or journalists.
+      Many simply want the most relevant stories surfaced automatically.
+    </p>
+
+    <p>
+      Existing personalization experiences were fragmented across products,
+      offered limited user control, and lacked transparency around recommendations.
+    </p>
+
+    <p>
+      The opportunity was to create a unified personalization strategy that:
+    </p>
+
+    <ul>
+      <li>Gives users control over their interests</li>
+      <li>Improves recommendations using behavioral signals</li>
+      <li>Encourages content discovery</li>
+      <li>Creates daily engagement habits</li>
+      <li>Scales across multiple Dow Jones brands</li>
+    </ul>
+
+    <!-- IMAGE: Before vs After user journey -->
+
+  </section>
+
+  <section>
+
+    <h2>My Role</h2>
+
+    <!-- IMAGE: Leadership diagram showing Product, Design, Engineering, Editorial, Data Science -->
+
+    <p>
+      As Product Design Lead, I partnered with Product Management, Engineering,
+      Editorial, Data Science, and Executive Leadership to define and execute the
+      long-term personalization vision.
+    </p>
+
+    <h3>Responsibilities</h3>
+
+    <ul>
+      <li>Product strategy and roadmap definition</li>
+      <li>User research leadership</li>
+      <li>Interaction design and prototyping</li>
+      <li>Executive presentations</li>
+      <li>Cross-functional alignment</li>
+      <li>Design direction and mentorship</li>
+    </ul>
+
+  </section>
+
+  <section>
+
+    <h2>Phase One — Building the Foundation</h2>
+
+    <h3>Preference Center</h3>
+
+    <!-- IMAGE: Preference Center UI -->
+
+    <p>
+      The first challenge was collecting meaningful preference data directly from
+      readers instead of relying solely on algorithms.
+    </p>
+
+    <p>
+      I designed a centralized Preference Center that allows users to explicitly
+      define what matters most to them.
+    </p>
+
+    <ul>
+      <li>Follow companies</li>
+      <li>Select industries</li>
+      <li>Choose topics</li>
+      <li>Identify personal interests</li>
+    </ul>
+
+    <p>
+      This transformed personalization into a collaborative experience between
+      the user and the platform.
+    </p>
+
+    <h3>Design Principles</h3>
+
+    <!-- IMAGE: Preference chips or taxonomy -->
+
+    <ul>
+      <li>Progressive onboarding</li>
+      <li>Simple interactions</li>
+      <li>Easy editing</li>
+      <li>Transparent personalization</li>
+    </ul>
+
+    <!-- IMAGE: Information architecture diagram -->
+
+  </section>
+
+  <section>
+
+    <h2>Phase Two — Personalized Discovery</h2>
+
+    <h3>WSJ+</h3>
+
+    <!-- HERO IMAGE: WSJ+ Homepage -->
+
+    <p>
+      WSJ+ became a personalized aggregation experience bringing together content
+      from Wall Street Journal, Barron's, MarketWatch and Investor's Business Daily.
+    </p>
+
+    <p>
+      Rather than presenting a chronological feed, the experience combines AI
+      recommendations with user interests to surface the most relevant stories.
+    </p>
+
+    <h3>Key Features</h3>
+
+    <!-- IMAGE GRID: Homepage, Interest Navigation, Article View -->
+
+    <ul>
+      <li>AI-powered recommendations</li>
+      <li>Interest-based browsing</li>
+      <li>Cross-brand content discovery</li>
+      <li>Dedicated exploration-focused article experience</li>
+      <li>Multiple pathways into content</li>
+    </ul>
+
+    <!-- IMAGE: User flow diagram -->
+
+  </section>
+
+  <section>
+
+    <h2>Phase Three — Mobile Personalization</h2>
+
+    <h3>MyWSJ</h3>
+
+    <!-- IMAGE: iPhone showing MyWSJ -->
+
+    <p>
+      Building on the personalization ecosystem, I led the design of MyWSJ,
+      introducing distinct experiences for recommendations and intentional following.
+    </p>
+
+    <h3>For You</h3>
+
+    <!-- IMAGE: For You feed -->
+
+    <p>
+      An intelligent feed combining reading history, interests, behavioral signals,
+      and recommendation algorithms.
+    </p>
+
+    <h3>Following</h3>
+
+    <!-- IMAGE: Following tab -->
+
+    <p>
+      A dedicated experience showing content only from journalists and authors
+      users intentionally follow.
+    </p>
+
+    <p>
+      Separating these experiences increased transparency while giving users
+      greater control over their content.
+    </p>
+
+    <!-- IMAGE: Architecture comparison -->
+
+  </section>
+
+  <section>
+
+    <h2>Phase Four — Creating Daily Reading Habits</h2>
+
+    <h3>Shortlist</h3>
+
+    <!-- IMAGE: Shortlist interaction -->
+
+    <p>
+      Traditional bookmarks often become permanent storage instead of active
+      reading lists.
+    </p>
+
+    <p>
+      I designed Shortlist as a lightweight alternative where saved stories
+      automatically disappear after twenty-four hours.
+    </p>
+
+    <h3>Goals</h3>
+
+    <ul>
+      <li>Reduce bookmark clutter</li>
+      <li>Encourage same-day reading</li>
+      <li>Create lightweight commitment</li>
+      <li>Increase daily engagement</li>
+    </ul>
+
+    <!-- IMAGE: Concept sketches and final design -->
+
+  </section>
+
+  <section>
+
+    <h2>Phase Five — Personalized Notifications</h2>
+
+    <h3>Notifications Inbox</h3>
+
+    <!-- IMAGE: Notifications Inbox -->
+
+    <p>
+      Breaking news is most valuable when it is personally relevant.
+    </p>
+
+    <p>
+      I designed a centralized Notifications Inbox that combines breaking news,
+      followed companies, favorite authors, and personalized recommendations
+      into one persistent experience.
+    </p>
+
+    <ul>
+      <li>Breaking market news</li>
+      <li>Followed companies</li>
+      <li>Author updates</li>
+      <li>Personalized recommendations</li>
+    </ul>
+
+    <!-- IMAGE: Notification lifecycle -->
+
+  </section>
+
+  <section>
+
+    <h2>Leading Product Design Across Teams</h2>
+
+    <!-- IMAGE: Workshop photo, Figma board or stakeholder presentation -->
+
+    <p>
+      Beyond designing features, my role focused on building organizational
+      alignment and establishing a long-term personalization strategy across
+      multiple products and business units.
+    </p>
+
+    <ul>
+      <li>Led cross-functional workshops</li>
+      <li>Presented strategy to executive leadership</li>
+      <li>Translated research into product direction</li>
+      <li>Facilitated collaboration across Product, Editorial and Engineering</li>
+      <li>Mentored designers throughout the product lifecycle</li>
+    </ul>
+
+  </section>
+
+  <section>
+
+    <h2>Design Principles</h2>
+
+    <!-- IMAGE: Five principle cards -->
+
+    <ul>
+      <li>Personalization should always be transparent.</li>
+      <li>User intent should override algorithms.</li>
+      <li>Discovery should encourage exploration.</li>
+      <li>Engagement should create long-term habits.</li>
+      <li>One personalization system should power multiple products.</li>
+    </ul>
+
+  </section>
+
+  <section>
+
+    <h2>Building an Ecosystem Instead of Individual Features</h2>
+
+    <!-- IMAGE: Full-width ecosystem diagram -->
+
+    <pre>
+
+Preference Center
+        │
+        ▼
+User Interests + Behavioral Signals
+        │
+        ▼
+Recommendation Engine
+        │
+ ┌──────┼─────────┬────────────┬───────────┐
+ ▼      ▼         ▼            ▼
+WSJ+  MyWSJ  Notifications  Shortlist
+        │
+        ▼
+Continuous Learning Loop
+
+    </pre>
+
+  </section>
+
+  <section>
+
+    <h2>Reflection</h2>
+
+    <!-- HERO IMAGE: Connected product ecosystem -->
+
+    <p>
+      The most meaningful outcome was not a single feature but the creation of
+      a scalable personalization ecosystem that connects user preferences,
+      behavioral insights, AI recommendations, and editorial content into one
+      cohesive product experience.
+    </p>
+
+    <p>
+      By approaching personalization as a strategic product capability rather
+      than isolated functionality, the platform established a foundation that
+      can continue evolving alongside reader behaviors and advances in AI.
+    </p>
+
+  </section>
+
+</section>
+```
